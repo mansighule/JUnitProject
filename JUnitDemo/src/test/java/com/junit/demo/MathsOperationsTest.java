@@ -18,7 +18,7 @@ import org.junit.jupiter.api.condition.OS;
 
 
 //here is new comment added to project
-
+//added comment again
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)//if this is added then beforeAllInit() will work without static
 class MathsOperationsTest {
