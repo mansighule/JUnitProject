@@ -17,7 +17,7 @@ import org.junit.jupiter.api.condition.EnabledOnOs;
 import org.junit.jupiter.api.condition.OS;
 
 
-//here is new comment added 
+//here is new comment added to project
 
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)//if this is added then beforeAllInit() will work without static
