@@ -2,7 +2,7 @@ package com.junit.demo;
 
 public class MathsOperations {
 	
-	
+	//addition function
 	public int add(int a, int b) {
 		return a + b;
 	}

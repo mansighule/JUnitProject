@@ -17,6 +17,8 @@ import org.junit.jupiter.api.condition.EnabledOnOs;
 import org.junit.jupiter.api.condition.OS;
 
 
+//here is new comment added 
+
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)//if this is added then beforeAllInit() will work without static
 class MathsOperationsTest {
@@ -29,7 +31,7 @@ class MathsOperationsTest {
 	}
 	
 	
-	
+	//2nd commit
 	@BeforeEach // init() :- any name is allowed for this method
 	void init() {
 		mathsOp = new MathsOperations();
